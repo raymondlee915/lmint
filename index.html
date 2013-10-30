@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SMINT Demo</title>
+
+<meta name = "keywords" content = "" />
+<meta name = "description" content = "" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1 user-scalable=no">
+
+
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+
+<link href="css/demo.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script type="text/javascript" 	src="js/jquery.lmint.js"></script>
+
+
+
+
+<script type="text/javascript">
+	
+
+$(document).ready( function() {
+    $('.subMenu').lmint({   	'scrollSpeed' : 1000   });
+});
+
+
+</script>
+
+</head>
+<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+
+	<div class="wrap">
+
+	  <div class="subMenu" >
+	 	<div class="inner">
+	 		<a lmint-target="sectionTop" id="sTop" class="navitem active">Home</a> 
+			<a lmint-target="section1" id="s1" class="navitem">Section 1</a>
+			<a lmint-target="section2" id="s2" class="navitem">Section 2</a>
+			<a lmint-target="section3" id="s3" class="navitem">Section 3</a>
+			<a lmint-target="section4" id="s4" class="navitem">Section 4</a>
+			<a lmint-target="section5" id="s5" class="navitem end">Section 5</a>
+		</div>
+		
+		
+				
+	</div>
+
+
+	<div id="sectionTop" class="section sTop">
+		
+
+
+		<div class="inner">
+			<h1>Welcome to the SMINT Demo page! </h1>
+			<p>Click the links below to see it in action!</p>
+
+		</div>
+		<br class="clear">
+	</div>
+
+
+
+
+
+	<div id="section1" class="section s1">
+		
+		<div class="inner">
+
+			<h1>Section 1</h1>
+
+		</div>
+
+	</div>
+
+	<div id="section2" class="section s2">
+		<div class="inner">
+
+			<h1>Section 2</h1>
+
+		</div>
+
+	</div>
+
+	<div id="section3" class="section s3">
+		<div class="inner">
+
+		<h1>Section 3</h1>
+
+		</div>
+
+	</div>
+
+	<div id="section4" class="section s4">
+		<div class="inner">
+
+			<h1>Section 4</h1>
+
+		</div>
+
+	</div>
+
+	<div id="section5" class="section s5">
+		<div class="inner">
+		
+		<h1>Section 5</h1>
+		
+		</div>
+
+	</div>
+
+	<div id="footer" style="height:300px">
+	Copyright
+	</div>
+
+</div>
+</body>
+</html>
